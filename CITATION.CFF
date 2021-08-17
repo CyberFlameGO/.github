@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Lowe"
+  given-names: "Aaron, Daniel"
+  orcid: "https://orcid.org/0000-0001-5918-7867"
+title: ".github"
+version: 1.0.0
+date-released: 2021-08-16
+url: "https://github.com/CyberFlameGO/.github"
