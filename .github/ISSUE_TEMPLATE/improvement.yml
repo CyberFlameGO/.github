@@ -1,0 +1,46 @@
+name: Improve the project
+description: Make a suggestion or report a problem regarding the project
+labels:
+  - content
+assignees:
+  - CyberFlameGO
+body:
+  - type: markdown
+    attributes:
+      value: |
+        * Before you file an issue read the [contributing guide](https://github.com/CyberFlameGO/.github/blob/master/docs/CONTRIBUTING.md).
+        * Check to make sure someone hasn't already opened a similar issue.
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: This project has a Code of Conduct that all participants are expected to understand and follow.
+      options:
+        - label: I have read and agree to the project's [Code of Conduct](https://github.com/CyberFlameGO/.github/blob/master/docs/CODE_OF_CONDUCT.md)
+          required: true
+
+  - type: textarea
+    attributes:
+      label: What improvements would you like to see?
+      description: Concept designs are useful but not necessary, please be brief
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: What changes are you suggesting?
+      description: |
+        - Give as much detail as you can to help us understand the change you want to see. 
+        - Why should this be changed? What use cases does it support? 
+        - What is the expected outcome?
+        - Do you have a suggested implementation of your recommendation?
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: Additional information
+      description: Any additional information, configuration, or data that might be necessary to reproduce the issue (if this is an issue).
+    validations:
+      required: false
