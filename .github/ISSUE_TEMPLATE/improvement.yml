@@ -1,7 +1,7 @@
 name: Improve the project
 description: Make a suggestion or report a problem regarding the project
 labels:
-  - content
+  - enhancement
 assignees:
   - CyberFlameGO
 body:
