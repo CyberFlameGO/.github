@@ -1,0 +1,14 @@
+name: Ask a question (if Discussions isn't enabled)
+description: General queries go here. Ask away!
+labels:
+  - question
+assignees:
+  - CyberFlameGO
+body:
+  - type: textarea
+    attributes:
+      label: What is your question?
+      description: |
+        - Ask away! :)
+    validations:
+      required: true
