@@ -1,0 +1,14 @@
+changelog:
+  exclude:
+    labels:
+      - workflow-skip
+  categories:
+    - title: Breaking changes (major) 🛠
+      labels:
+        - breaking-change
+    - title: Enhancements 🎉
+      labels:
+        - enhancement
+    - title: Other/minor changes
+      labels:
+        - "*"
