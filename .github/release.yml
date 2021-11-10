@@ -1,7 +1,7 @@
 changelog:
   exclude:
     labels:
-      - workflow-skip
+      - changelog-skip
   categories:
     - title: Breaking changes (major) 🛠
       labels:
