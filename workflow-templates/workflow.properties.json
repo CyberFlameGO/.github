@@ -1,0 +1,13 @@
+{
+    "name": "Workflow",
+    "description": "A workflow template.",
+    "iconName": "example-icon",
+    "categories": [
+        "Bash"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
