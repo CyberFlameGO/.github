@@ -1,7 +1,7 @@
 {
     "name": "Workflow",
     "description": "A workflow template.",
-    "iconName": "example-icon",
+    "iconName": "cyber",
     "categories": [
         "Bash"
     ],
